@@ -1,0 +1,10 @@
+.carousel {
+    box-shadow: 1px 1px 6px black;
+}
+.carousel-content {
+    opacity: 1;
+    font-size: 1em;
+    color: black;
+    background-color: rgba(173, 216, 230, 0.8);
+}
+
