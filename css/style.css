@@ -1,29 +1,29 @@
 /* COLOR PALETTE */
-.bg-primary {
+.bg-pri {
     background-color: #363062;
 }
 
-.bg-secondary {
+.bg-sec {
     background-color: #363062;
 }
 
-.bg-tertiary {
+.bg-ter {
     background-color: #F5F5F5;
 }
 
-.bg-info {
+.bg-inf {
     background-color: #F99417;
 }
 
-.color-primary {
+.cl-pri {
     color: #363062;
 }
 
-.color-secondary {
+.cl-sec {
     color: #F99417;
 }
 
-.color-tertiary {
+.cl-ter {
     color: #F5F5F5;
 }
 
