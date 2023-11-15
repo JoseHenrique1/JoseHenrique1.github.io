@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>José Henrique</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-pri">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Portfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Apresentação</a>
+                        <a class="nav-link" aria-current="page" href="#">Apresentação</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tecnologias e ferramentas</a>
@@ -36,14 +37,14 @@
             </div>
         </div>
     </nav>
-    <section id="apresentacao" class="container d-flex flex-column flex-lg-row justify-content-around pt-5 pb-5">
-        <div class="container">
+    <section id="apresentacao" class="bg-sec rounded-bottom-3 container d-flex flex-column flex-lg-row justify-content-around pt-5 pb-5">
+        <div class="container d-flex justify-content-center">
             <img class="w-75 rounded" src="./img/pessoal_imagem.jpeg" alt="">
         </div>
         <div class="container">
-            <h1>José Henrique</h1>
-            <h4>Araujo da Silva</h4>
-            <p>
+            <h1 class="cl-sec">José Henrique</h1>
+            <h4 class="cl-ter">Araujo da Silva</h4>
+            <p class="cl-ter p-2 bg-inf">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis maiores, 
                 dolorem corporis nisi repellendus enim odio nostrum maxime voluptatum ipsam 
                 animi quis explicabo, culpa mollitia illum? Debitis, quisquam! Ab, neque.
@@ -147,6 +148,5 @@
             <i class='bx bxl-google'></i>
         </div>
     </footer>
-    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

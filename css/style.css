@@ -4,7 +4,7 @@
 }
 
 .bg-sec {
-    background-color: #363062;
+    background-color: #4D4C7D;
 }
 
 .bg-ter {
@@ -43,5 +43,20 @@
 /*BOX ICONS*/
 .bx {
     font-size: 2em;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: #F99417;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-item :hover {
+    color: #F99417;
 }
 
