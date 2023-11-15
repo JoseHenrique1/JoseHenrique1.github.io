@@ -1,3 +1,34 @@
+/* COLOR PALETTE */
+.bg-primary {
+    background-color: #363062;
+}
+
+.bg-secondary {
+    background-color: #363062;
+}
+
+.bg-tertiary {
+    background-color: #F5F5F5;
+}
+
+.bg-info {
+    background-color: #F99417;
+}
+
+.color-primary {
+    color: #363062;
+}
+
+.color-secondary {
+    color: #F99417;
+}
+
+.color-tertiary {
+    color: #F5F5F5;
+}
+
+
+
 .carousel {
     box-shadow: 1px 1px 6px black;
 }
