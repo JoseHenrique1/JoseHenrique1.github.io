@@ -60,3 +60,23 @@
     color: #F99417;
 }
 
+#lprogramacao {
+    background-image: url("./../img/pexels-kevin-ku-577585.jpg");
+    background-size: cover;
+}
+
+#frontend  {
+    background-image: url("./../img/pexels-pixabay-270404.jpg");
+    background-size: cover;
+}
+
+#backend {
+    background-image: url("./../img/pexels-luis-gomes-546819.jpg");
+    background-size: cover;
+}
+
+#ferramentas {
+    background-image: url("./../img/pexels-andrew-neel-2312369.jpg");
+    background-size: cover;
+}
+
