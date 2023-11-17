@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(173, 216, 230, 0.5);
+}
+
 /* COLOR PALETTE */
 .bg-pri {
     background-color: #363062;
@@ -60,6 +64,17 @@
     color: #F99417;
 }
 
+/*Tecnologias*/
+
+.tec-card {
+    transition: 0.5s 0s;
+}
+
+.tec-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0.5px 0.5px 3px black;
+}
+
 #lprogramacao {
     background-image: url("./../img/pexels-kevin-ku-577585.jpg");
     background-size: cover;
@@ -76,7 +91,11 @@
 }
 
 #ferramentas {
-    background-image: url("./../img/pexels-andrew-neel-2312369.jpg");
+    background-image: url("./../img/tools.jpg");
     background-size: cover;
 }
 
+section > h2 {
+    color: orangered;
+    text-shadow: 1px 1px 1px black;
+}
