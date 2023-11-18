@@ -43,6 +43,10 @@ body {
     background-color: rgba(173, 216, 230, 0.8);
 }
 
+.carousel-item {
+    max-height: 85vh;
+}
+
 
 /*BOX ICONS*/
 .bx {
