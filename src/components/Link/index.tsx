@@ -6,6 +6,9 @@ interface linkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 
 export function Link({children}: linkProps) {
     return ( 
-        <a className="text-gray-300" href="#">{children}</a>
+        <a 
+            className="text-gray-300 hover:text-cyan-500" 
+            href="#"
+        >{children}</a>
      );
 }
