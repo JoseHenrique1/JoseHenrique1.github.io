@@ -17,7 +17,7 @@ export function Header() {
                     {
                         links.map(item => <Link href={item.href}> {item.children} </Link>)
                     }
-                    <Button className="font-normal">CONTACT</Button>
+                    <Button className="inline-flex font-normal">CONTACT</Button>
                 </nav>
             </div>
         </header>
