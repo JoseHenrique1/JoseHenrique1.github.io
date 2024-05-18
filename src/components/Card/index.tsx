@@ -1,11 +1,13 @@
 import { CardContent } from "./CardContent";
 import { CardImage } from "./CardImage";
+import CardLink from "./CardLink";
 import {CardRoot} from "./CardRoot";
 
 export const Card = {
     Root: CardRoot,
     Image: CardImage,
-    Content: CardContent
+    Content: CardContent,
+    Link: CardLink
 }
 
 /*
