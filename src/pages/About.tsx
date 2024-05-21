@@ -8,7 +8,7 @@ export function About() {
     return ( 
         <section id="about" className="min-h-screen flex items-center">
             <Card.Root>
-                <Card.Image layout="vertical" src="/foto-pessoal.jpeg" />
+                <Card.Image layout="vertical" src="img/foto-pessoal.jpeg" />
                 <Card.Content title={title} description={description} >
                     <Button className="text-lg px-12">HIRE ME</Button>
                     <Button 

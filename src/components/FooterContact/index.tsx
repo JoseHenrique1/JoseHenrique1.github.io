@@ -9,13 +9,13 @@ export function FooterContact() {
             <Logo className="basis-1/4" />
             <p className="flex-grow text-center text-gray-300">2024 - José Henrique, All rights reserved</p>
             <div className="basis-1/4    flex justify-end gap-2">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/jos%C3%A9-henrique-araujo-da-silva-43970a274/" target="_blank">
                     <Icon icon={Linkedin} />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://github.com/JoseHenrique1" target="_blank">
                     <Icon icon={Github} />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/josehenrii10/" target="_blank">
                     <Icon icon={Instagram} />
                 </a>
             </div>

@@ -5,19 +5,19 @@ export function ContainerCard() {
         {
             title: "Task Block",
             description: "Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks |",
-            src: "/forum-site.png",
+            src: "img/forum-site.png",
             link: "google.com",
         },
         {
             title: "Task Block",
             description: "Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks |",
-            src: "/forum-site.png",
+            src: "img/forum-site.png",
             link: "google.com",
         },
         {
             title: "Task Block",
             description: "Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks | Site manager of tasks |",
-            src: "/forum-site.png",
+            src: "img/forum-site.png",
             link: "google.com",
         },
     ]
