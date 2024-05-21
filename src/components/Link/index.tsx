@@ -4,11 +4,11 @@ interface linkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
     children: ReactNode
 }
 
-export function Link({children}: linkProps) {
+export function Link({children, ...props}: linkProps) {
     return ( 
         <a 
             className="text-gray-300 hover:text-cyan-500" 
-            href="#"
+            {...props}
         >{children}</a>
      );
 }

@@ -6,7 +6,7 @@ export function About() {
     const description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ducimus laborum odio atque minus. Libero, aliquid veritatis quasi cumque illum atque! Delectus recusandae quia architecto, eius sint neque ad. Laboriosam.";
     
     return ( 
-        <section className="min-h-screen flex items-center">
+        <section id="about" className="min-h-screen flex items-center">
             <Card.Root>
                 <Card.Image layout="vertical" src="/foto-pessoal.jpeg" />
                 <Card.Content title={title} description={description} >

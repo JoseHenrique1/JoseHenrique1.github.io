@@ -16,7 +16,7 @@ export function Experience() {
 
 
     return ( 
-        <section className="min-h-screen flex flex-col justify-center items-center gap-8">
+        <section id="experience" className="min-h-screen flex flex-col justify-center items-center gap-8">
             <h1 className="text-white text-4xl">EXPERIENCE</h1>
             <div className="w-full grid grid-cols-4 justify-items-center gap-12 max-w-screen-lg">
             {
