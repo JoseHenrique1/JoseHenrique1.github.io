@@ -25,9 +25,9 @@ export function Header() {
                 <nav className="space-x-8">
                 {links.map((item) => {
                     if (item.children == "CONTACT") {
-                        return <Link className={styleContact} href={item.href} > {item.children} </Link>
+                        return <Link key={item.children} className={styleContact} href={item.href} > {item.children} </Link>
                     }
-                    return <Link href={item.href}> {item.children} </Link>
+                    return <Link key={item.children} href={item.href}> {item.children} </Link>
                 })}
                 </nav>
             </div>

@@ -20,7 +20,7 @@ export function Experience() {
             <h1 className="text-white text-4xl">EXPERIENCE</h1>
             <div className="w-full grid grid-cols-4 justify-items-center gap-12 max-w-screen-lg">
             {
-                experiences.map(experience=> <ExperienceCard name={experience.name} src={experience.src}/>)
+                experiences.map(experience=> <ExperienceCard key={experience.name} name={experience.name} src={experience.src}/>)
             }
             </div>
         </section>
