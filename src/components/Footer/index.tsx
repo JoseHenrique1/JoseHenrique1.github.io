@@ -31,7 +31,7 @@ export function Footer() {
 
             <dialog
                 ref={dialog}
-                className="fixed bottom-[90vh] ml-auto mr-10 bg-transparent focus:border-none">
+                className="fixed bottom-[90vh] ml-auto mr-10 bg-transparent focus:outline-none">
                 <div
                     className="w-auto p-2 font-medium text-lg text-gray-100 bg-green-400/70 rounded"
                 >Copied email !</div>
