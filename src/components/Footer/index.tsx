@@ -18,7 +18,7 @@ export function Footer() {
             className="p-6 space-y-3 rounded-t-[100px] bg-gradient-to-br from-violet-900 to-blue-600"
         >
             <h1 className="text-white text-center text-4xl">CONTACT</h1>
-            <p className="text-white text-center">Deseja falar comigo? Acesse minhas redes sociais.</p>
+            <p className="text-white text-center">Do you want to talk to me? Access my social networks.</p>
             <div className="flex justify-between w-full max-w-screen-xl border-t pt-3">
                 <Logo />
                 <div className="flex justify-end gap-2">
