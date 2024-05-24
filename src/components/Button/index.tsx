@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 interface buttonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     children: ReactNode
 }
-export function Button({ children, className }: buttonProps) {
+export function Button({ children, className, ...props }: buttonProps) {
     let classNameBase = `
         flex justify-center items-center
         text-sm text-gray-300 
@@ -14,6 +14,7 @@ export function Button({ children, className }: buttonProps) {
 
     return (
         <button
+            {...props}
             className={twMerge(classNameBase, className)}
         >{children}</button>
     );

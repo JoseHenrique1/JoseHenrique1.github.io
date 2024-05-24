@@ -1,3 +1,4 @@
+import {CardAnchor} from "./CardAnchor";
 import { CardContent } from "./CardContent";
 import { CardImage } from "./CardImage";
 import CardLink from "./CardLink";
@@ -7,7 +8,8 @@ export const Card = {
     Root: CardRoot,
     Image: CardImage,
     Content: CardContent,
-    Link: CardLink
+    Link: CardLink,
+    Anchor: CardAnchor
 }
 
 /*
