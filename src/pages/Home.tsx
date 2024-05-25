@@ -7,13 +7,13 @@ export function Home() {
       <h1 className="text-gray-300 font-semibold text-3xl">I'm a</h1>
       <div className="space-y-4">
         <h1 className="text-white text-9xl font-semibold font-serif tracking-tight ">Full Stack</h1>
-        <h1 className="text-white text-9xl font-semibold font-serif tracking-tight leading-10">Web Site</h1>
+        <h1 className="text-white text-9xl font-semibold font-serif tracking-tight leading-10">Software</h1>
         <h1 className="text-white text-9xl font-semibold font-serif tracking-tight ">
           Developer
           <span className="text-cyan-500 font-serif">.</span>
         </h1>
       </div>
-      <Button className="font-semibold text-lg mt-6 px-16">Previous Projects</Button>
+      <Button href="https://github.com/JoseHenrique1" className="font-semibold text-lg mt-6 px-16">Previous Projects</Button>
     </section>
   )
 }
