@@ -17,8 +17,8 @@ export function Footer() {
             id="contact"
             className="p-6 space-y-3 rounded-t-[100px] bg-gradient-to-br from-violet-900 to-blue-600"
         >
-            <h1 className="text-white text-center text-4xl">CONTACT</h1>
-            <p className="text-white text-center">Do you want to talk to me? Access my social networks.</p>
+            <h1 className="text-white text-center text-4xl">CONTATO</h1>
+            <p className="text-white text-center">Você quer falar comigo? Acesse minhas redes sociais.</p>
             <div className="flex justify-between w-full max-w-screen-xl border-t pt-3">
                 <Logo />
                 <div className="flex justify-end gap-2">
@@ -34,7 +34,7 @@ export function Footer() {
                 className="fixed bottom-[90vh] ml-auto mr-10 bg-transparent focus:outline-none">
                 <div
                     className="w-auto p-2 font-medium text-lg text-gray-100 bg-green-400/70 rounded"
-                >Copied email !</div>
+                >Email copiado!</div>
             </dialog>
         </footer>
     );

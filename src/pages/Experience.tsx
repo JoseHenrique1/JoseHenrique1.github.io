@@ -17,7 +17,7 @@ export function Experience() {
 
     return ( 
         <section id="experience" className="min-h-screen flex flex-col justify-center items-center gap-8">
-            <h1 className="text-white text-4xl">EXPERIENCE</h1>
+            <h1 className="text-white text-4xl">EXPERIÊNCIA</h1>
             <div className="w-full grid grid-cols-4 justify-items-center gap-12 max-w-screen-lg">
             {
                 experiences.map(experience=> <ExperienceCard key={experience.name} name={experience.name} src={experience.src}/>)

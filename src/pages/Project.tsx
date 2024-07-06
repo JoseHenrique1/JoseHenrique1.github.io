@@ -11,19 +11,19 @@ export function Project() {
     const projects : Array<projectInterface> = [
         {
             title: "Task Block",
-            description: "Tired of losing your thoughts and ideas amidst the pile of papers? No more relying on complicated apps full of ads! Online TaskBlock is the perfect solution for those looking for a simple and efficient way to organize their notes. With our virtual notepad, you can create notes with title, description, background color and status.",
+            description: "Cansado de perder pensamentos e ideias em meio à pilha de papéis? Chega de depender de aplicativos complicados e cheios de anúncios! Online TaskBlock é a solução perfeita para quem procura uma forma simples e eficiente de organizar suas anotações. Com nosso bloco de notas virtual, você pode criar notas com título, descrição, cor de fundo e status.",
             src: "img/projects/task-block.png",
             link: "https://github.com/JoseHenrique1/TaskBlock",
         },
         {
             title: "FastNews",
-            description: "News site on various topics: Brazil, Football, Europe and much more. Work through specific themes or see highlights on the home page.",
+            description: "Site de notícias sobre diversos temas: Brasil, Futebol, Europa e muito mais. Trabalhe em temas específicos ou veja os destaques na página inicial.",
             src: "img/projects/fastnews.png",
             link: "https://github.com/JoseHenrique1/FastNews",
         },
         {
             title: "Forum",
-            description: "Vibrant and dynamic online forum where you can connect with people who share your interests. Create topics, join conversations, and explore a world of knowledge and ideas!",
+            description: "Fórum on-line vibrante e dinâmico onde você pode se conectar com pessoas que compartilham seus interesses. Crie tópicos, participe de conversas e explore um mundo de conhecimento e ideias!",
             src: "img/projects/forum-site.png",
             link: "https://github.com/JoseHenrique1/Forum/tree/main",
         },
@@ -31,7 +31,7 @@ export function Project() {
 
     return ( 
         <section id="projects" className="min-h-screen flex flex-col justify-start gap-8">
-            <h1 className="text-white self-center text-4xl">Projects</h1>
+            <h1 className="text-white self-center text-4xl">PROJETOS</h1>
             {
                 projects.map(project=>(
                     <Card.Root key={project.title}>

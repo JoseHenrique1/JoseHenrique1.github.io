@@ -4,12 +4,12 @@ import { Logo } from "../Logo";
 
 export function Header() {
     const links = [
-        { children: "HOME", href: "#home" },
-        { children: "ABOUT ME", href: "#about" },
-        { children: "PROJECTS", href: "#projects" },
-        { children: "SERVICES", href: "#services" },
-        { children: "EXPERIENCE", href: "#experience" },
-        { children: "CONTACT", href: "#contact" },
+        { children: "INÍCIO", href: "#home" },
+        { children: "SOBRE MIM", href: "#about" },
+        { children: "PROJETOS", href: "#projects" },
+        { children: "SERVIÇOS", href: "#services" },
+        { children: "EXPERIÊNCIA", href: "#experience" },
+        { children: "CONTATO", href: "#contact" },
     ]
 
     return (
