@@ -9,7 +9,7 @@ function CardService({title, description, icon:Icon}: cardServiceProps) {
     return (
         <div
             className="
-                    p-2 w-96 h-72 rounded-md
+                    p-2 w-full h-72 rounded-md sm:w-96
                     bg-gradient-to-r from-violet-900 to-blue-600
                     shadow-lg shadow-blue-400
                 ">
