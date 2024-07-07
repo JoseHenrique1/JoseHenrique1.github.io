@@ -11,4 +11,17 @@
   html {
     @apply scroll-smooth;
   }
+
+  /*Scroll*/
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-track {
+    @apply bg-[#101731f5]
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply bg-blue-500 rounded-2xl hover:bg-blue-800
+  }
 }
