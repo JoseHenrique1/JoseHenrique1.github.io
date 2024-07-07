@@ -16,8 +16,8 @@ export function Service() {
     ]
 
     return ( 
-        <section id="services" className="min-h-screen flex flex-col justify-center gap-8">
-            <h1 className="text-white self-center text-4xl">SERVIÇOS</h1>
+        <section id="services" className="p-4 space-y-8">
+            <h1 className="text-white self-center text-4xl text-center">SERVIÇOS</h1>
             <div className="flex flex-col gap-8 items-center sm:flex-row sm:items-center sm:justify-around">
                 {services.map(service=> <CardService key={service.title} {...service} />)}
             </div>

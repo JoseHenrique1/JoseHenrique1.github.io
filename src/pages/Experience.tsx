@@ -16,9 +16,9 @@ export function Experience() {
 
 
     return ( 
-        <section id="experience" className="min-h-screen flex flex-col justify-center items-center gap-8">
-            <h1 className="text-white text-4xl">EXPERIÊNCIA</h1>
-            <div className="w-full grid grid-cols-4 justify-items-center gap-12 max-w-screen-lg">
+        <section id="experience" className="py-4 space-y-8">
+            <h1 className="text-white text-4xl text-center">EXPERIÊNCIA</h1>
+            <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 justify-items-center gap-12 max-w-screen-lg mx-auto">
             {
                 experiences.map(experience=> <ExperienceCard key={experience.name} name={experience.name} src={experience.src}/>)
             }

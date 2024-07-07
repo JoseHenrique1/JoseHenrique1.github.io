@@ -30,7 +30,7 @@ export function Project() {
     ]
 
     return ( 
-        <section id="projects" className="min-h-screen flex flex-col justify-start gap-8">
+        <section id="projects" className="py-4 flex flex-col justify-start gap-8">
             <h1 className="text-white self-center text-4xl">PROJETOS</h1>
             {
                 projects.map(project=>(

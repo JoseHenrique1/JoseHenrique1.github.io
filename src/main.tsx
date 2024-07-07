@@ -11,7 +11,7 @@ import { Experience } from './pages/Experience.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <div className='flex flex-col w-full min-h-screen bg-[#101731]'>
     <Header/>
-    <main className='flex flex-col flex-grow w-full mx-auto my-0 max-w-screen-xl  p-2'>
+    <main className='flex gap-8 flex-col flex-grow w-full mx-auto my-0 max-w-screen-xl  p-4'>
       <Home />
       <About/>
       <Project/>
