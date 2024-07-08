@@ -1,4 +1,7 @@
 import { Card } from "../components/Card";
+import fastnews from "../assets/img/projects/fastnews.png";
+import forumsite from "../assets/img/projects/forum-site.png";
+import taskblock from "../assets/img/projects/task-block.png";
 
 interface projectInterface {
     title: string,
@@ -12,19 +15,19 @@ export function Project() {
         {
             title: "Task Block",
             description: "Cansado de perder pensamentos e ideias em meio à pilha de papéis? Chega de depender de aplicativos complicados e cheios de anúncios! Online TaskBlock é a solução perfeita para quem procura uma forma simples e eficiente de organizar suas anotações. Com nosso bloco de notas virtual, você pode criar notas com título, descrição, cor de fundo e status.",
-            src: "src/assets/img/projects/task-block.png",
+            src: taskblock,
             link: "https://github.com/JoseHenrique1/TaskBlock",
         },
         {
             title: "FastNews",
             description: "Site de notícias sobre diversos temas: Brasil, Futebol, Europa e muito mais. Trabalhe em temas específicos ou veja os destaques na página inicial.",
-            src: "src/assets/img/projects/fastnews.png",
+            src: fastnews,
             link: "https://github.com/JoseHenrique1/FastNews",
         },
         {
             title: "Forum",
             description: "Fórum on-line vibrante e dinâmico onde você pode se conectar com pessoas que compartilham seus interesses. Crie tópicos, participe de conversas e explore um mundo de conhecimento e ideias!",
-            src: "src/assets/img/projects/forum-site.png",
+            src: forumsite,
             link: "https://github.com/JoseHenrique1/Forum/tree/main",
         },
     ]
