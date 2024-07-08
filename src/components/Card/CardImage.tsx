@@ -5,15 +5,15 @@ interface cardImageProps extends ImgHTMLAttributes<HTMLImageElement> {
 }
 export function CardImage({layout, src}: cardImageProps) {
     const divClassName = layout === "horizontal"?
-    "shrink-0 relative box-border border-8 border-cyan-500 ml-6 rounded-md w-[480px] h-64"
+    "shrink-0 relative box-border border-8 border-cyan-500 ml-6 rounded-md w-auto aspect-video sm:w-[480px] sm:h-64"
     :
-    "shrink-0 relative box-border border-8 border-cyan-500 ml-6 rounded-md w-96 h-[438px]";
+    "shrink-0 relative box-border border-8 border-cyan-500 ml-6 rounded-md w-auto sm:w-96 h-[438px]";
 
 
     const imgClassName = layout === "horizontal"?
-    "absolute -top-12 -left-8 rounded-md w-[480px] h-64"
+    "absolute -top-12 -left-8 rounded-md w-auto aspect-video sm:w-[480px] sm:h-64"
     :
-    "absolute -top-12 -left-8 rounded-md w-96 h-[438px]";
+    "absolute -top-12 -left-8 rounded-md w-auto sm:w-96 sm:h-[438px]";
 
     return ( 
         <div 

@@ -6,7 +6,7 @@ interface cardRootProps {
 
 export function CardRoot({children}: cardRootProps) {
     return ( 
-        <div className="pt-10 flex gap-8 items-start">
+        <div className="pt-10 flex flex-col gap-8 md:flex-row">
             {children}
         </div>
      );
