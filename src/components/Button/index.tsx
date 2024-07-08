@@ -15,8 +15,8 @@ export function Button({ children, className, ...props }: buttonProps) {
 
     return (
         <a
-            {...props}
             target="_blank"
+            {...props}
             className={twMerge(classNameBase, className)}
         >{children}</a>
     );
