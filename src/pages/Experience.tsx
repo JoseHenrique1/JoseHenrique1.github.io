@@ -3,15 +3,15 @@ import { ExperienceCard } from "../components/ExperienceCard";
 export function Experience() {
 
     const experiences = [
-        {name: "Python", src: "/img/python.png"},
-        {name: "Javascript", src: "/img/javascript.png"},
-        {name: "Typescript", src: "/img/typescript.png"},
-        {name: "HTML", src: "/img/html.png"},
-        {name: "CSS", src: "/img/css.png"},
-        {name: "SQLite", src: "/img/sqlite.png"},
-        {name: "React", src: "/img/react.png"},
-        {name: "Tailwind", src: "/img/tailwind.png"},
-        {name: "Fastify", src: "/img/fastify.png"},
+        {name: "Python", src: "src/assets//img/python.png"},
+        {name: "Javascript", src: "src/assets//img/javascript.png"},
+        {name: "Typescript", src: "src/assets//img/typescript.png"},
+        {name: "HTML", src: "src/assets//img/html.png"},
+        {name: "CSS", src: "src/assets//img/css.png"},
+        {name: "SQLite", src: "src/assets//img/sqlite.png"},
+        {name: "React", src: "src/assets//img/react.png"},
+        {name: "Tailwind", src: "src/assets//img/tailwind.png"},
+        {name: "Fastify", src: "src/assets//img/fastify.png"},
     ]
 
 
