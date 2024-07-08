@@ -4,7 +4,7 @@ interface logoProps extends AnchorHTMLAttributes<HTMLAnchorElement> {}
 export function Logo({...props}: logoProps) {
   return ( 
     <a {...props} href="#home">
-      <h1 className="text-5xl font-semibold text-cyan-500">JH</h1>
+      <img src="/src/assets/img/logo.png" alt="logo" className="w-14 sm:min-w-14" />
     </a>
    );
 }
