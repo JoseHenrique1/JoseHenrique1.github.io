@@ -19,17 +19,15 @@ export function Header() {
     }
 
     const links = [
-        { children: "INÍCIO", href: "#home" },
         { children: "SOBRE MIM", href: "#about" },
         { children: "PROJETOS", href: "#projects" },
         { children: "SERVIÇOS", href: "#services" },
-        { children: "EXPERIÊNCIA", href: "#experience" },
         { children: "CONTATO", href: "#contact" },
     ]
 
     return (
-        <header id="home" className="flex justify-center min-h-24 p-4">
-            <nav className="flex flex-col gap-4 w-full max-w-screen-xl md:flex-row md:justify-between md:items-start">
+        <header id="home" className="flex justify-center">
+            <nav className="flex flex-col gap-4 w-full max-w-screen-xl md:flex-row md:justify-between md:items-center p-4">
                 <div className="flex w-full items-center justify-between md:w-auto">
                     <Logo />
                     <Menu size={28} color="#ffffff" className="block md:hidden" onClick={handleShow}/>
