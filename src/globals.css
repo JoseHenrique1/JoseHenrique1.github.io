@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 
-.home {
-  height: calc(100vh - 6rem);
-}
+
 
 @layer base {
   html {
