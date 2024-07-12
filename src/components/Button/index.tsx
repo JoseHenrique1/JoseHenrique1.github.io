@@ -1,23 +1,13 @@
-import { AnchorHTMLAttributes, ReactNode } from "react";
+import { ComponentProps } from "react";
 import { twMerge } from "tailwind-merge";
 
-interface buttonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
-    children: ReactNode
-}
-export function Button({ children, className, ...props }: buttonProps) {
-    let classNameBase = `
-        flex justify-center items-center
-        text-sm text-gray-300 
-        py-3 px-8 rounded-md   
-        bg-gradient-to-r from-cyan-500 to-blue-800
-        hover:bg-gradient-to-br
-    `;
+interface props extends ComponentProps<'button'> {}
 
+export function Button({ children, className, ...props }: props) {
     return (
-        <a
-            target="_blank"
+        <button
             {...props}
-            className={twMerge(classNameBase, className)}
-        >{children}</a>
+            className={twMerge("flex justify-center items-center px-2 py-1 rounded border enabled:text-white enabled:border-blue-800 enabled:hover:text-blue-500 enabled:hover:border-blue-600  disabled:text-gray-400 disabled:border-blue-900 ", className)}
+        >{children}</button>
     );
 }
