@@ -2,6 +2,9 @@ import { Button } from "../components/Button";
 import photoPersonal from "../assets/img/foto-pessoal.jpeg"
 
 export function Home() {
+  function handeGetCV () {
+    window.open("/Currículo.pdf", "_blank");
+  }
   return (
     <section>
       <div className="flex flex-col gap-6  md:flex-row md:items-center">
@@ -15,16 +18,16 @@ export function Home() {
               className="text-cyan-500 tracking-tight text-2xl sm:text-3xl"
             >Desenvolvedor frontend</h1>
             <Button
-              className="mt-3 max-w-80 hidden md:flex bg-gradient-to-r from-transparent to-transparent border border-blue-800 text-lg  transition duration-200  hover:text-blue-700 md:px-6 lg:px-12"
-              target="_blank"
-              href="/Currículo.pdf">Baixar CV</Button>
+              className="enabled:text-gray-300 hidden w-full max-w-96 md:flex md:py-3 md:px-6 lg:px-12 lg:max-w-80"
+              onClick={handeGetCV}
+              >Baixar CV</Button>
           </div>
         </div>
         <img className="self-center w-full max-w-96 rounded shadow shadow-blue-800" src={photoPersonal} />
         <Button
-          className="flex w-full max-w-96 mx-auto md:hidden bg-gradient-to-r from-transparent to-transparent border border-blue-800 text-lg  transition duration-200  hover:text-blue-700 md:px-6 lg:px-12"
-          target="_blank"
-          href="/Currículo.pdf">Baixar CV</Button>
+          className="enabled:text-gray-300 w-full py-2 max-w-96 mx-auto md:hidden md:py-3 md:px-6 lg:px-12"
+          onClick={handeGetCV}
+          >Baixar CV</Button>
       </div>
     </section>
   )

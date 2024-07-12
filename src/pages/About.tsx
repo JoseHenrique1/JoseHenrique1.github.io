@@ -10,15 +10,15 @@ export function About() {
       composta por TypeScript, React, Express, Fastify e Prisma ORM.`;
 
   const hardSkills = [
-    { name: "Python", time: "4 anos de experiência", className: "bg-blue-600" },
-    { name: "Javascript", time: "3 anos de experiência", className: "bg-yellow-500"  },
-    { name: "Typescript", time: "1 anos de experiência", className: "bg-blue-800"  },
-    { name: "HTML", time: "3 anos de experiência", className: "bg-orange-600"  },
-    { name: "CSS", time: "3 anos de experiência", className: "bg-cyan-600"  },
-    { name: "SQLite", time: "3 anos de experiência", className: "bg-blue-600"  },
-    { name: "React", time: "2 anos de experiência", className: "bg-blue-800"  },
-    { name: "Tailwind", time: "1 anos de experiência", className: "bg-cyan-600"  },
-    { name: "Fastify", time: "1 anos de experiência", className: "bg-black"  },
+    { name: "Python", time: "4 anos de experiência" },
+    { name: "Javascript", time: "3 anos de experiência" },
+    { name: "Typescript", time: "1 anos de experiência" },
+    { name: "HTML", time: "3 anos de experiência" },
+    { name: "CSS", time: "3 anos de experiência"},
+    { name: "SQLite", time: "3 anos de experiência" },
+    { name: "React", time: "2 anos de experiência" },
+    { name: "Tailwind", time: "1 anos de experiência"},
+    { name: "Fastify", time: "1 anos de experiência"},
   ]
 
   return (
@@ -28,7 +28,7 @@ export function About() {
         <h1 className="text-cyan-500 text-2xl">{title}</h1>
         <p className="w-full text-gray-300 max-w-screen-lg">{description}</p>
         <div className="flex flex-wrap justify-center gap-1">
-          {hardSkills.map(skill => <Badge title={skill.time} className={skill.className} >{skill.name}</Badge>)}
+          {hardSkills.map(skill => <Badge title={skill.time} tech={skill.name}>{skill.name}</Badge>)}
         </div>
       </div>
     </section>
